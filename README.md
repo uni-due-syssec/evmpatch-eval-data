@@ -24,7 +24,16 @@ For citing these results in academic work please use the following bibtex entry:
 
 ## Repository Structure
 
-* <a href="./CVE-comparison">./CVE-comparison/</a> - contains the 5 contracts
+* <a href="./CVE-comparison">./CVE-comparison/</a> - the 5 contracts
   with known CVEs and attacks, which we patched (1) manually with SafeMath and 
   (2) automatically with EVMPatch.
-* <a href="./gas-cost-comparison-to-safemath">./gas-cost-comparison-to-safemath/</a> - Contains some experiments on gas cost increase when using EVMPatch or SafeMath to patch contracts
+* <a href="./CVEs-tx-reexec-analysis">./CVE-comparison/</a> - the
+  results of our analysis of replaying all transactions of the 5 contracts
+  mentioned above.
+* <a href="./gas-cost-comparison-to-safemath">./gas-cost-comparison-to-safemath/</a>
+  - some experiments on gas cost increase when using EVMPatch or SafeMath to
+  patch contracts.
+* <a href="./large-scale">./large-scale</a> - contains the results of our large-scale
+  evaluation on ~14k contracts, out of which ~8k have transactions. These
+  contracts are all from the full [Osiris dataset](https://github.com/christoftorres/Osiris/tree/master/datasets/contracts).
+  Note that this data is stored compressed in [git lfs](https://git-lfs.github.com/)
