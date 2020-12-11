@@ -27,7 +27,7 @@ For citing these results in academic work please use the following bibtex entry:
 * <a href="./CVE-comparison">./CVE-comparison/</a> - the 5 contracts
   with known CVEs and attacks, which we patched (1) manually with SafeMath and 
   (2) automatically with EVMPatch.
-* <a href="./CVEs-tx-reexec-analysis">./CVE-comparison/</a> - the
+* <a href="./CVEs-tx-reexec-analysis">./CVEs-tx-reexec-analysis/</a> - the
   results of our analysis of replaying all transactions of the 5 contracts
   mentioned above.
 * <a href="./gas-cost-comparison-to-safemath">./gas-cost-comparison-to-safemath/</a>
